@@ -3,14 +3,7 @@ const MovieList = ({ movieState }) => {
 
     return (
         <>
-            {
-                movieState.map(movieState => {
-                    return (
-                        <div key={movieState}>
-                        </div>
-                    );
-                })
-            }
+
             <Movie movieState={movieState} />
         </>
     )
